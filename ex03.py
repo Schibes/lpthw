@@ -2,7 +2,7 @@
 print("I will now count my chickens:")
 
 # Hens will be 30 because division happens first
-print("Hens", 25 + 30 / 6)
+print("Hens", float(25 + 30 / 6))
 
 # Roosters has some modulus math in there. 75 mod 4 = 3
 print("Roosters", 100 - 25 * 3 % 4)
