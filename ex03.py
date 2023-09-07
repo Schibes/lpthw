@@ -5,7 +5,7 @@ print("I will now count my chickens:")
 print("Hens", float(25 + 30 / 6))
 
 # Roosters has some modulus math in there. 75 mod 4 = 3
-print("Roosters", 100 - 25 * 3 % 4)
+print("Roosters", float(100 - 25 * 3 % 4))
 
 # More blather
 print("Now I will count the eggs:")
