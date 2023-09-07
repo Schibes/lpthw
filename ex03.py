@@ -4,14 +4,16 @@ print("I will now count my chickens:")
 # Hens will be 30 because division happens first
 print("Hens", float(25 + 30 / 6))
 
-# Roosters has some modulus math in there. 75 mod 4 = 3
+# Roosters has some modulus math in there.
+# Mod has same PEMDAS precedence as multiply/divide.
+# 75 mod 4 = 3
 print("Roosters", float(100 - 25 * 3 % 4))
 
 # More blather
 print("Now I will count the eggs:")
 
-# This works out to 6.75 because 4 mod 2 = 0
-print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6)
+# This works out to 6.75 because 4 mod 2 = 0. 
+print(float(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6))
 
 # Just prints stuff
 print("Is it true that 3 + 2 < 5 -7?")
